@@ -75,7 +75,8 @@ const TVSeriesDetails = () => {
             {videoKey && (
               <div className="mt-4 self-center lg:self-start">
                 <a
-                  href={`https://www.youtube.com/watch?v=${videoKey}`}
+                  // href={`https://www.youtube.com/watch?v=${videoKey}`}
+                  href={`https://shrinkme.io/st?api=f857857d402e0ebc95baebccc704a85a95f78bca&url=https://www.youtube.com/watch?v=${videoKey}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-blue-500 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded"
